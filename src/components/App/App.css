@@ -5,3 +5,9 @@ body {
     width: 100%;
     overflow-x: hidden;
 }
+
+input:focus,
+textarea:focus,
+select:focus{
+    outline:none;
+}
